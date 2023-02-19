@@ -16,3 +16,6 @@
 #
 #   Booleans
 #     always getting back true or false
+
+# -irb - interactive ruby
+# variable - are the memory locations, which holds any data you made
