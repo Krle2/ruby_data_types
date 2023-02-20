@@ -17,5 +17,3 @@ is_bad = "bad"
 # "Alcohol is bad"
 "Alcohol is #{1+1}"
 # "Alcohol is 2"
-
-Test test
