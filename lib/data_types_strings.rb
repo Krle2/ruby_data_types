@@ -68,3 +68,16 @@ var.insert(6, "magarac")
    => "ja sam \"konj\""
   3.1.3 :057 > puts var
   ja sam "konj"
+
+  3.1.3 :078 > var = "ja\nsam\n\n"
+   => "ja\nsam\n\n"
+  3.1.3 :079 > puts var
+  ja
+  sam
+
+   => nil
+  3.1.3 :080 > var.chomp!
+   => "ja\nsam\n"
+  3.1.3 :081 > puts var
+  ja
+  sam 
