@@ -62,4 +62,9 @@ var.insert(6, "magarac")
  3.1.3 :046 > string
   => "   ja sam konj  "
  3.1.3 :047 > string.strip
-  => "ja sam konj" 
+  => "ja sam konj"
+
+  3.1.3 :056 > var = "ja sam \"konj\""
+   => "ja sam \"konj\""
+  3.1.3 :057 > puts var
+  ja sam "konj"
