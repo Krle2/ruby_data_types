@@ -25,3 +25,9 @@ is_bad = "bad"
  => "r"
 3.1.3 :003 > colors[0..1]
  => "re"
+
+# Insert - insert some text inbetween or in some part of variable
+var.(index number, "what we want to add")
+var = "ja sam"
+var.size
+var.insert(6, "magarac")
