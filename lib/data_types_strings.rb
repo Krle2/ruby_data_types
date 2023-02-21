@@ -58,3 +58,8 @@ var.insert(6, "magarac")
  => "ja sam konj"
 3.1.3 :043 > string.chop
  => "ja sam kon"
+
+ 3.1.3 :046 > string
+  => "   ja sam konj  "
+ 3.1.3 :047 > string.strip
+  => "ja sam konj" 
