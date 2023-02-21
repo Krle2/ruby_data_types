@@ -31,3 +31,18 @@ var.(index number, "what we want to add")
 var = "ja sam"
 var.size
 var.insert(6, "magarac")
+
+3.1.3 :022 > string = "ja sam"
+ => "ja sam"
+3.1.3 :023 > string.upcase
+ => "JA SAM"
+3.1.3 :024 > string.downcase
+ => "ja sam"
+3.1.3 :025 > string.swapcase
+ => "JA SAM"
+3.1.3 :026 > string.capitalize
+ => "Ja sam"
+ 3.1.3 :030 > string.downcase!
+ => "ja sam"
+3.1.3 :031 > string
+ => "ja sam" 
