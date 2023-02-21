@@ -17,3 +17,11 @@ is_bad = "bad"
 # "Alcohol is bad"
 "Alcohol is #{1+1}"
 # "Alcohol is 2"
+
+# indexiranje - number of character in the variable
+3.1.3 :001 > colors = "red"
+ => "red"
+3.1.3 :002 > colors[0]
+ => "r"
+3.1.3 :003 > colors[0..1]
+ => "re"
