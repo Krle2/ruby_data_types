@@ -45,4 +45,11 @@ var.insert(6, "magarac")
  3.1.3 :030 > string.downcase!
  => "ja sam"
 3.1.3 :031 > string
- => "ja sam" 
+ => "ja sam"
+
+ 3.1.3 :034 > string = "ja sam konj"
+  => "ja sam konj"
+ 3.1.3 :035 > string
+  => "ja sam konj"
+ 3.1.3 :036 > string.reverse
+  => "jnok mas aj" 
