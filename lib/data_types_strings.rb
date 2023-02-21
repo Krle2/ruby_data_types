@@ -52,4 +52,9 @@ var.insert(6, "magarac")
  3.1.3 :035 > string
   => "ja sam konj"
  3.1.3 :036 > string.reverse
-  => "jnok mas aj" 
+  => "jnok mas aj"
+
+  3.1.3 :042 > string
+ => "ja sam konj"
+3.1.3 :043 > string.chop
+ => "ja sam kon"
