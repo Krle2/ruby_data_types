@@ -80,4 +80,12 @@ var.insert(6, "magarac")
    => "ja\nsam\n"
   3.1.3 :081 > puts var
   ja
-  sam 
+  sam
+
+To integer(string into number) or float(decimal numbers)
+string = "15"
+"15"
+3.1.3 :006 > string.to_i (to integer)
+ => 15 
+3.1.3 :007 > string.f  (float)
+ => 15.0
