@@ -112,4 +112,15 @@ string = "15"
  3.1.3 :021 > a
   => "konj"
  3.1.3 :022 > a.clear
-  => "" 
+  => ""
+
+  3.1.3 :091 > str
+   => "jabuka je pala sa drveta"
+  3.1.3 :092 > str.index(a)
+   => 0
+  3.1.3 :093 > str.index("a")
+   => 1
+  3.1.3 :094 > str.slice!(str.index("a"))
+   => "a"
+  3.1.3 :095 > str
+   => "jbuka je pala sa drveta" 
