@@ -123,4 +123,8 @@ string = "15"
   3.1.3 :094 > str.slice!(str.index("a"))
    => "a"
   3.1.3 :095 > str
-   => "jbuka je pala sa drveta" 
+   => "jbuka je pala sa drveta"
+   3.1.3 :096 > "Hello world"[1..-1]
+ => "ello world"
+3.1.3 :097 > "Hello world"[1..-3]
+ => "ello wor" 
