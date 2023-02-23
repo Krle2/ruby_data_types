@@ -102,4 +102,9 @@ string = "15"
  => "ruby is a boring language"
 
  3.1.3 :015 > "15" + "15"
-  => "1515" 
+  => "1515"
+
+  3.1.3 :016 > "konjina".index('n')
+ => 2
+3.1.3 :017 > "konjina".index('nji')
+ => 2 
