@@ -86,6 +86,17 @@ To integer(string into number) or float(decimal numbers)
 string = "15"
 "15"
 3.1.3 :006 > string.to_i (to integer)
- => 15 
+ => 15
 3.1.3 :007 > string.f  (float)
  => 15.0
+
+ 3.1.3 :008 > string = "ruby is a funny language"
+ => "ruby is a funny language"
+3.1.3 :009 > string.gsub("funny", "boring")
+ => "ruby is a boring language"
+3.1.3 :010 > string
+ => "ruby is a funny language"
+3.1.3 :011 > string.gsub!("funny", "boring")
+ => "ruby is a boring language"
+3.1.3 :012 > string
+ => "ruby is a boring language" 
