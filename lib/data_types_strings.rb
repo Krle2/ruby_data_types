@@ -99,4 +99,7 @@ string = "15"
 3.1.3 :011 > string.gsub!("funny", "boring")
  => "ruby is a boring language"
 3.1.3 :012 > string
- => "ruby is a boring language" 
+ => "ruby is a boring language"
+
+ 3.1.3 :015 > "15" + "15"
+  => "1515" 
