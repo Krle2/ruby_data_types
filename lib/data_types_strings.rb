@@ -107,4 +107,9 @@ string = "15"
   3.1.3 :016 > "konjina".index('n')
  => 2
 3.1.3 :017 > "konjina".index('nji')
- => 2 
+ => 2
+
+ 3.1.3 :021 > a
+  => "konj"
+ 3.1.3 :022 > a.clear
+  => "" 
