@@ -8,3 +8,22 @@ puts "Integer number 5 to float number is #{5.to_f}"
 puts "Float number 2.5 to round is #{2.5.round}"
 # 5. Puts -20 to apsolute value
 puts "-20 to absolute value is #{-20.abs}"
+# 6. Print me if number 4 and number 5 are even
+puts "Number 4 is even: #{4.even?}"
+puts "Number 5 is even: #{5.even?}"
+# Odd number? (neparan)
+puts "Number 5 is odd: #{5.odd?}"
+# Round number
+puts 5.5.round
+# Next number in line
+puts 8.next
+# Previous number in line
+puts 8.pred
+# Convert number in string(inbetween "")
+puts 8.to_s
+# Modulus(leftover)
+puts 10 % 3
+# Real solution(not just 10 / 3)
+puts (10.to_f / 3.to_f)
+# Exponents(stepenovanje)
+puts 2 ** 3 
