@@ -28,4 +28,4 @@ array = [0, 1, 2, 3, 4]
 # puts array
 # puts result
 # p result
-
+# Isidora je mala bebica
