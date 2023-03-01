@@ -2,7 +2,7 @@ array = [0, 1, 2, 3, 4]
 # .lenght = counts number of data in an array
 # puts array.length
 # .first = prints first object from an array
-# puts  array.first 
+# puts  array.first
 # array.first = array[0]
 # .last = same, but last object
 # puts array.last
@@ -28,4 +28,3 @@ array = [0, 1, 2, 3, 4]
 # puts array
 # puts result
 # p result
-# Isidora je mala bebica
