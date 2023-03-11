@@ -27,3 +27,9 @@ puts 10 % 3
 puts (10.to_f / 3.to_f)
 # Exponents(stepenovanje)
 puts 2 ** 3 
+
+# Conditioning:
+# if num == 1
+# elsif num == 2
+# else
+# end
