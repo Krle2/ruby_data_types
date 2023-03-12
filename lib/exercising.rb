@@ -37,6 +37,8 @@ array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 three = []
 eight = []
 over_eight = []
+odd = []
+even = []
 
 array.each {|num|
   if num <= 3
@@ -49,5 +51,28 @@ array.each {|num|
 }
 
 puts "Ovo su brojevi manji ili jednaki sa 3 #{three}"
-puts "Ovo su brojevi manji od 3 i veci od 8 #{eight}"
-puts "Ovo su brojevi veci od 8 #{over_eight}"
+puts "Ovo su brojevi veci od 3 i manji od 8 #{eight}"
+puts "Ovo su brojevi veci ili jednaki sa 8 #{over_eight}"
+
+array.each {|num|
+  if num.odd?
+    odd << num
+  elsif num.even?
+    even << num
+  elsif num <= 3
+    three << num
+  elsif num > 3 && num < 8
+    eight << num
+  else
+    over_eight << num
+  end
+}
+
+  puts "Ovi brojevi su parni #{even}"
+  puts "Ovi brojevi su neparni #{odd}"
+  puts "Ovi brojevi su manji ili jednaki sa 3 #{three}"
+  puts "Ovi brojevi su veci od 3, a manji od 8 #{eight}"
+  puts "Ovi brojevi su veci ili jednaki sa 8 #{over_eight}"
+  
+
+
