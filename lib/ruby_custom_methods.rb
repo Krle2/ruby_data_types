@@ -70,4 +70,6 @@
 # array_filter(array, "odd")
 # array_filter(array, "even")
 
+# Homework - 1. Napravi metod koji ce uzimati prvi i poslednji element iz array-a, ako je prvi element paran dodaj mu 1, ako je neparan dodaj mu 2, a ako je poslednji element paran dodaj mu 1, a ako je neparan dodaj mu 2.
+
 
