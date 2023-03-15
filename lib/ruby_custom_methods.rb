@@ -73,23 +73,23 @@
 # Homework - 1. Napravi metod koji ce uzimati prvi i poslednji element iz array-a, ako je prvi element paran dodaj mu 1, ako je neparan dodaj mu 2, a ako je poslednji element paran dodaj mu 1, a ako je neparan dodaj mu 2.qq
 
 
-def array_change(array)
-    if array.first.odd?
-        array[0] += 2
+# def array_change(array)
+#     if array.first.odd?
+#         array[0] += 2
     
-    elsif array.first.even?
-        array[0] += 2
-    end
+#     elsif array.first.even?
+#         array[0] += 2
+#     end
     
-    if array.last.even?
-        array[-1] += 1
+#     if array.last.even?
+#         array[-1] += 1
     
-    elsif array.last.odd?
-        array[-1] += 1
-    end
+#     elsif array.last.odd?
+#         array[-1] += 1
+#     end
     
-    p array
-end
+#     p array
+# end
 
 # arr = [1,1,1]
 # arr2 = [2,2,2]
@@ -97,7 +97,6 @@ end
 # array_change(arr)
 # array_change(arr2)
 
-arr = [1,2,3,4,5,6,7,8,9,10]
+# arr = [1,2,3,4,5,6,7,8,9,10]
 
-array_change(arr)
-
+# array_change(arr)
