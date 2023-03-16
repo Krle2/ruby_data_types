@@ -100,3 +100,138 @@
 # arr = [1,2,3,4,5,6,7,8,9,10]
 
 # array_change(arr)
+
+# 1. Napravi metod koji prima broj i vraca "Ja imam _ godina"
+
+# def my_age(number)
+#    puts "Ja imam #{number} godina"
+# end
+
+# my_age(25)
+
+# 2. Metod prima 2 argumenta, koliko ja imam god, a koliko neko drugi
+
+# def our_age(num1, num2)
+#     puts "Ja imam #{num1}, a moja majka ima #{num2} godina."
+# end
+
+# our_age(26, 52)
+
+# 3. Metod koji prima string kao argument, i posle toga vraca taj string sa dignutim slovima.
+
+# def up_string(string)
+#     p string.upcase
+# end
+
+# up_string("ja sam konj")
+
+# 4. Metod prima string i da zamenim prvo i poslednje slovo
+
+# def change_first_and_last(string)
+#     first_letter = string[0]
+#     last_letter = string[-1]
+
+#     string[0] = last_letter
+#     string[-1] = first_letter
+#     puts string
+# end
+
+# change_first_and_last("ja sam kon")
+
+# 5. Metod koji menja prvu i poslednju rec
+
+# def change_first_and_last(string)
+#     arr = string.split(" ")
+#     arr_first = arr[0]
+#     arr_last = arr[-1]
+
+#     arr[0] = arr_last
+#     arr[-1] = arr_first
+
+#     p arr.join(" ")
+# end
+    
+# change_first_and_last("ja sam konj")
+
+# 6. 
+# def change_first_and_second(string)
+#         arr = string.split(" ")
+#         arr_first = arr[0]
+#         arr_second = arr[1]
+    
+#         arr[0] = arr_second
+#         arr[1] = arr_first
+    
+#         p arr.join(" ")
+#     end
+        
+#     change_first_and_second("ja sam konj")
+
+# 7. Metod koji prima broj, ako je taj broj deljiv sa 3, dodaj mu 100 i isprintaj, ako ima ostatak, dodaj mu 200 i isprintaj Rezultat
+
+# def check_remainder(num)
+#     if num % 3 !=0
+#     p num + 200
+#     else
+#     p num + 100
+#     end
+
+# end
+
+# check_remainder(50)
+# check_remainder(9)
+
+# 8. Napisi metod koji ce da vraca true ako je broj paran, ako je neparan false
+
+# def check_if_even(num)
+#     if num % 2 == 0
+#         p true
+#     else
+#         p false
+#     end
+# end
+
+# check_if_even(50)
+# check_if_even(9)
+
+# 9. Metod ako su prvo i poslednje slovo jednaki da vrati true, ako nisu da vrati false.
+
+# def check_equality(string)
+#     if string[0] == string[-1]
+#         p true
+#     else
+#         p false
+#     end
+# end
+
+# check_equality("ja sam konj")
+# check_equality("ja sam glup")
+
+# 10. Metod koji prima 2 argumenta, string, broj slova u string
+
+# def letter_counter(string, letter)
+#     count = 0
+#     str_arr = string.split("")
+
+#     str_arr.each {|lett|
+#         if lett == letter
+#         count += 1
+#     end
+# }
+#     p count 
+# end
+
+# letter_counter("ja sam konj", "s")
+
+# 1. Homework : Metod koji proverava da li su reci anagrami
+
+def anagram_checker(string)
+
+end
+
+anagram_checker("Ana voli milovana")
+#true
+
+prvo sva slova spustiti dole
+drugi step obrisati razmake
+treci step napraviti variablu koristiti reverse metod(string, reverse_string) = >
