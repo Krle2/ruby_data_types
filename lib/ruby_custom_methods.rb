@@ -225,13 +225,48 @@
 
 # 1. Homework : Metod koji proverava da li su reci anagrami
 
-def anagram_checker(string)
+# def anagram_checker(string)
+#     string.downcase!.gsub!(" ", "")
+#         var = string.reverse
+#         if var == string
+#             p true
+#         else
+#             p false
+#         end
+# end
 
-end
-
-anagram_checker("Ana voli milovana")
+# anagram_checker("Ana voli Milovana")
+# anagram_checker("Ja sam konj")
 #true
 
-prvo sva slova spustiti dole
-drugi step obrisati razmake
-treci step napraviti variablu koristiti reverse metod(string, reverse_string) = >
+# prvo sva slova spustiti dole
+# drugi step obrisati razmake
+# treci step napraviti variablu koristiti reverse metod(string, reverse_string) = >
+
+# def add_two(num)
+#  p result = num + 2
+# end
+
+# def add_three(num)
+#  three = num + 3
+#  add_two(three)
+# end
+
+# add_three(10)
+
+def nesto(nesto)
+    if nesto.even?
+        p "Ja sam KONJ"
+    else 
+        p "Ja sam konj"
+    end
+end
+
+def print_result(num)
+  nesto(num)
+end
+
+print_result(2)
+
+# 1. Napravi 2 metoda i pozovi jedan od ta dva metoda, a da taj metod pozove ovaj drugi
+# 2. Napravi 3 metoda i da svaki metod poziva onaj drugi
